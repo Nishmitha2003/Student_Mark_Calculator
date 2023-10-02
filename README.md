@@ -10,5 +10,6 @@ It is a simple app developed in Java and uses SQLite Database to create, delete 
 
 <b>Screenshots</b>
 
-<img src="screenshots/update_marks.jpg" width=40% height=40%>    <img src="screenshots/view_marks.jpg" width=40% height=40%>
- 
+![home](https://github.com/Nishmitha2003/Student_Mark_Calculator/assets/125563752/560f6068-7f3a-45d4-988c-85e1b31f699b)
+![enrty](https://github.com/Nishmitha2003/Student_Mark_Calculator/assets/125563752/b74f9826-099e-4d0b-aa88-7fdbfc098a94)
+![marks](https://github.com/Nishmitha2003/Student_Mark_Calculator/assets/125563752/4cf6336a-10a4-400b-b16d-8fa13fb87099)
