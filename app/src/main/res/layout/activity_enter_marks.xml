@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BE4DC"
+    android:orientation="vertical"
+    tools:context=".EnterMarks">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:shadowColor="#00EB0808"
+        android:shadowRadius="20"
+        android:text="Enter all subject marks /100"
+        android:textColor="#232323"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/na"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Student Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Student USN"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/MC_marks"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="System Software"
+        android:inputType="numberSigned"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/ACA_marks"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Computer Graphics"
+        android:inputType="numberSigned"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/ET_marks"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Web Technology and Application"
+        android:inputType="numberSigned"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/FA_marks"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Cloud Computing"
+        android:inputType="numberSigned"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/addEntryButton"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="#212121"
+        android:onClick="onAddEntryClick"
+        android:text="@string/add_entry"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/deleteName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Student USN"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/deleteEntryButton"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="#212121"
+        android:onClick="onDeleteClick"
+        android:text="@string/delete_entry"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
